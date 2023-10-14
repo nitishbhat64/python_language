@@ -1,0 +1,13 @@
+pylint <example.py>  : check the rating of your code with respect to pep8 standard
+
+pylint <example.py> -ry : for detailed information about the code
+
+
+Unit Testing:
+1. import unittest
+2. import module which is to be tested
+3. create class and inherit unittest.TestCase
+4. define test cases as seperate methods
+5. self.assertEqual(output, expected output) to check output in above methods
+6. if __name__=="__main__":
+    unittest.main()

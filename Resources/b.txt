@@ -1,0 +1,2 @@
+Rewritten File : line one
+Rewritten File : line two

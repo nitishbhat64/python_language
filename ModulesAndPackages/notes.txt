@@ -1,0 +1,11 @@
+Any package should contain the file __init__.py for python to recognize it as package.
+
+__name__ variable will be set to '__main__' only if the script is run directly
+Otherwise its set to calling module    
+
+Description : 
+1. MyCalculator is the main package. It has a subpackage BasicFunc
+2. modules can be imported as follows
+
+from MyCalculator import calculator_module
+from MyCalculator.BasicFunc import addition_module
